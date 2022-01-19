@@ -34,6 +34,11 @@ header {
   line-height: 27.72px;
 }
 
+header:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
 p {
   color: #8bacd9;
   font-weight: 300;
@@ -47,6 +52,29 @@ p {
   height: 302px;
   border-radius: 8px;
   margin-bottom: 24px;
+  display: block;
+}
+
+.middle {
+  position: absolute;
+  top: 176px;
+  left: 176px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  min-height: 302px;
+  min-width: 302px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle:hover {
+  background: rgba(0, 255, 247, 0.5);
+  background-image: url("../images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
 .info-style {
@@ -106,6 +134,11 @@ p {
   color: white;
 }
 
+.name-style:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
 @media (max-width: 375px) {
   main {
     max-width: 327px;
@@ -116,5 +149,11 @@ p {
     height: 278px;
     border-radius: 8px;
     margin-bottom: 24px;
+  }
+  .middle {
+    min-height: 278px;
+    min-width: 278px;
+    top: 165px;
+    left: 165px;
   }
 }
