@@ -105,3 +105,16 @@ p {
 .name-style {
   color: white;
 }
+
+@media (max-width: 375px) {
+  main {
+    max-width: 327px;
+    max-height: auto;
+  }
+  .main-img {
+    width: 278px;
+    height: 278px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+  }
+}
