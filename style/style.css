@@ -141,6 +141,7 @@ p {
 
 @media (max-width: 375px) {
   main {
+    top: 62px;
     max-width: 327px;
     max-height: auto;
   }
